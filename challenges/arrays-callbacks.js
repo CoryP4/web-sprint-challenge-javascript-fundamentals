@@ -24,11 +24,7 @@ const displayNames = [];
 
 zooAnimals.forEach(nameThing);
 
-function nameThing(){
-  console.log
-}
 
-nameThing;
 console.log(displayNames);
 
 /* Request 2: .map()

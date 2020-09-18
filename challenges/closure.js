@@ -18,7 +18,13 @@ myFunction();
 
 // Explanation: 
 
+// Because of the way javascript lets functions and variables inherit things from their parents/things their nested within. they can look at teh outer scope but not within to children's scope.
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+const arr1 = [1,2,3,4]
+
+console.log(arr1.reduce((acc, val) => acc + val));
+
